@@ -1,19 +1,8 @@
-
+body{
+    margin:0;
+    padding:0;
+}
 .questions-img{
-    /*position:fixed;*/
-    /*background: url('../assets/images/H5SahrePage01.png') no-repeat;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-    /*z-index: -1;*/
-    /*opacity: 0.6;*/
-    /*!*height:100%;*!*/
-    /*!*width:100%;*!*/
 }
 .questions-fixed{
     height:230px;
@@ -82,10 +71,10 @@
     width:100%;
     padding-bottom: 140px;
     background-color: #ffffff !important;
-    margin-top: 231px;
+    margin-top: 231px !important;
 }
 .questions .name6{
-    margin-top: 172px;
+    margin-top: 172px !important;
 }
 
 .box {

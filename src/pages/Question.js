@@ -50,9 +50,7 @@ export default class Download extends Component {
             <div className="question-nav">
                 <a>常见问题</a>
                 <a onClick={() => {
-                    this.setState({
-                        item: 1,
-                    })
+                    this.props.history.push("/sharePage")
                 }}>关闭</a>
             </div>)
         }
